@@ -1,4 +1,4 @@
 provider "github" {
-  token = "var.TOKEN_PAT"
+  token = var.TOKEN_PAT
   owner = "rduwez"
 }

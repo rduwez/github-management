@@ -90,3 +90,4 @@ jobs:
       run: terraform apply -auto-approve
       env: 
         TF_VAR_token_git: ${{ secrets.TOKEN_PAT}}
+
